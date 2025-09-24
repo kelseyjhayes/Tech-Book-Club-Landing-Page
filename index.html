@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Tech book club</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Martian+Mono:wght@100..800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <header class="bg-neutral-200-grid">
+    <div class="container">
+      <img class="logo" src="./starter-code/assets/images/logo.svg" alt="Tech Book Club">
+    </div>
+  </header>
+  <main>
+    <section class="hero-section | bg-neutral-200-grid">
+      <div class="container">
+        <div class="even-columns">
+          <div class="left-column">
+            <h1 class="hero-heading | text-preset-1 text-gradient-800">Join the ultimate tech book club</h1>
+            <p class="hero-subheading | text-preset-5 text-neutral-700">Turn your reading time into learning time with fellow tech enthusiasts. 
+              Get curated recommendations, join vibrant discussions, and level up your 
+              skills one chapter at a time.</p>
+            <button type="button">Review Membership Options
+              <svg fill="none" viewBox="0 0 24 25" id="icon-arrow-down">
+                <path fill="var(--clr-neutral-900)" d="m3.96 14.956.72-3.12c1.224.12 2.328.504 3.264 1.2.936.696 1.584 1.512 1.896 2.496V3.676h2.76v11.856c.672-1.944 2.688-3.48 5.16-3.696l.72 3.12c-3.384.12-5.52 2.112-5.88 5.544H9.84c-.36-3.456-2.496-5.424-5.88-5.544Z"></path>
+              </svg>
+            </button>
+            <div class="trust-container">
+              <div class="trust-images-container">
+                <img src="./starter-code/assets/images/image-avatars.webp" alt="User Avatars">
+              </div>
+              <div class="trust-content-container">
+                <div class="trust-stars">
+                  <img src="./starter-code/assets/images/icon-star.svg" alt="Star">
+                  <img src="./starter-code/assets/images/icon-star.svg" alt="Star">
+                  <img src="./starter-code/assets/images/icon-star.svg" alt="Star">
+                  <img src="./starter-code/assets/images/icon-star.svg" alt="Star">
+                  <img src="./starter-code/assets/images/icon-star.svg" alt="Star">
+                </div>
+                <p class="text-preset-7 text-neutral-700">200+ developers joined already</p>
+              </div>
+            </div>
+          </div>
+          <div class="right-column">
+            <img class="hero-image"
+            src="./starter-code/assets/images/image-hero-mobile.webp" 
+            alt="Three people reading a book around a coffee table"
+            srcset="./starter-code/assets/images/image-hero-mobile.webp 686w,
+                    ./starter-code/assets/images/image-hero-tablet.webp 1408w,
+                    ./starter-code/assets/images/image-hero-desktop.webp 1072w"
+            sizes="(max-width:768px) 686px,
+                    (max-width:1440px) 1408px, 1072px">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="read-together">
+      <div class="container | margin-block-800">
+        <div class="even-columns">
+          <div class="left-column">
+            <h2 class="text-preset-2 text-neutral-900">Read together, grow together</h2>
+            <ul class="text-preset-5 text-neutral-700">
+              <li>Monthly curated tech reads selected by industry experts</li>
+              <li>Virtual and in-person meetups for deep-dive discussions</li>
+              <li>Early access to new tech book releases</li>
+              <li>Author Q&A sessions with tech thought leaders</li>
+            </ul>
+          </div>
+          <div class="right-column">
+            <img class="content-image" 
+            src="./starter-code/assets/images/image-read-together-mobile.webp"
+            alt="Four people reading together in a circle"
+            srcset="./starter-code/assets/images/image-read-together-mobile.webp 686w, 
+                    ./starter-code/assets/images/image-read-together-tablet.webp 1408w,
+                    ./starter-code/assets/images/image-read-together-desktop.webp 1120w"
+            sizes="(max-width:768px) 686px,
+                    (max-width:1440px) 1408px, 1120px">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="not-average">
+      <div class="container | margin-block-800">
+        <div class="even-columns">
+          <div class="left-column">
+            <h2 class="text-preset-2 text-neutral-900">Not your average book <span>club</span></h2>
+            <p class="text-preset-5 text-neutral-700">Connect with a community that speaks your language - from <span class="text-preset-5-semibold">Python</span> to <span class="text-preset-5-semibold">TypeScript</span> and 
+              everything in between. Our discussions blend technical depth with practical applications.
+            </p>
+          </div>
+          <div class="right-column">
+            <img class="content-image" 
+            src="./starter-code/assets/images/image-not-average-mobile.webp"
+            alt="Three people reading and talking"
+            srcset="./starter-code/assets/images/image-not-average-mobile.webp 686w, 
+                    ./starter-code/assets/images/image-not-average-tablet.webp 1408w,
+                    ./starter-code/assets/images/image-not-average-desktop.webp 1120w"
+            sizes="(max-width:768px) 686px,
+                    (max-width:1440px) 1408px, 1120px">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="journey | margin-block-800">
+      <div class="container bg-neutral-200-grid">
+        <h2 class="text-preset-2 text-neutral-900">Your tech reading journey</h2>
+        <ol class="text-preset-6 text-neutral-900">
+          <li>Choose your membership tier</li>
+          <li>Get your monthly book selection</li>
+          <li>Join our discussion forums</li>
+          <li>Attend exclusive meetups</li>
+        </ol>
+      </div>
+    </section>
+    <section class="membership" style="height:400px">
+      <div class="container">
+
+      </div>
+    </section>
+  </main>
+
+
+
+  <!-- Join the ultimate tech book club
+
+
+  Membership options
+
+  Starter
+  $19/month
+
+  1 book/month
+  Online forums
+
+  Subscribe now
+
+  Pro
+  $29/month
+
+  2 books/month
+  Virtual meetups
+
+  Subscribe now
+
+  Enterprise
+  Custom
+
+  Team access
+  Private sessions
+
+  Talk to us
+
+  "This book club transformed my technical reading from a solitary 
+  activity into an enriching community experience. The discussions 
+  are gold!"
+
+  Sarah Chen, Software Architect
+
+  Ready to debug your reading list?
+
+  Review membership options
+  200+ developers joined already
+
+  © 2024 - Tech Book Club -->
+
+</body>
+</html>
+
+
+<!-- SVGs
+
+DOWN ARROW
+
+<svg fill="none" viewBox="0 0 24 25" id="icon-arrow-down">
+  <path fill="var(--clr-neutral-900)" d="m3.96 14.956.72-3.12c1.224.12 2.328.504 3.264 1.2.936.696 1.584 1.512 1.896 2.496V3.676h2.76v11.856c.672-1.944 2.688-3.48 5.16-3.696l.72 3.12c-3.384.12-5.52 2.112-5.88 5.544H9.84c-.36-3.456-2.496-5.424-5.88-5.544Z"></path>
+</svg>
+
+UP ARROW
+
+<svg fill="none" viewBox="0 0 24 25" id="icon-arrow-up">
+  <path fill="#fff" d="m3.96 8.742.72 3.12c1.224-.12 2.328-.504 3.264-1.2.936-.696 1.584-1.512 1.896-2.496v11.856h2.76V8.166c.672 1.944 2.688 3.48 5.16 3.696l.72-3.12c-3.384-.12-5.52-2.112-5.88-5.544H9.84c-.36 3.456-2.496 5.424-5.88 5.544Z"></path>
+</svg>
+
+BLUESKY
+
+<svg fill="none" viewBox="0 0 22 23" id="logo-bluesky">
+  <path fill="#fff" d="M4.804 2.695c2.51 1.877 5.208 5.693 6.196 7.743.988-2.046 3.687-5.861 6.196-7.743 1.81-1.358 4.74-2.407 4.74.936 0 .666-.383 5.608-.606 6.411-.782 2.785-3.627 3.498-6.158 3.064 4.422.752 5.547 3.244 3.116 5.736-4.615 4.735-6.63-1.186-7.146-2.702-.073-.211-.112-.336-.142-.336-.03 0-.069.13-.142.336-.515 1.516-2.535 7.437-7.146 2.702-2.427-2.492-1.306-4.984 3.116-5.736-2.531.434-5.376-.28-6.153-3.068-.228-.804-.61-5.745-.61-6.411 0-3.343 2.93-2.294 4.739-.937v.005Z"></path>
+</svg>
+
+
+LINKEDIN
+
+<svg fill="none" viewBox="0 0 18 19" id="logo-linkedin">
+  <path fill="#fff" d="M16.25.772c.664 0 1.25.586 1.25 1.289v14.961c0 .703-.586 1.25-1.25 1.25H1.21c-.663 0-1.21-.547-1.21-1.25V2.061C0 1.358.547.772 1.21.772h15.04Zm-10.977 15v-8.32H2.695v8.32h2.578ZM3.984 6.28c.82 0 1.485-.664 1.485-1.485 0-.82-.664-1.523-1.485-1.523-.859 0-1.523.703-1.523 1.523S3.125 6.28 3.984 6.28ZM15 15.772v-4.57c0-2.227-.508-3.985-3.125-3.985-1.25 0-2.11.703-2.46 1.367h-.04V7.452h-2.46v8.32h2.577V11.67c0-1.093.195-2.148 1.563-2.148 1.328 0 1.328 1.25 1.328 2.188v4.062H15Z"></path>
+</svg>
+
+STAR
+
+<svg fill="none" viewBox="0 0 24 25" id="icon-star">
+  <path fill="#FF9A60" d="M11.207 5.742c.328-.656 1.258-.629 1.559 0L14.57 9.38l3.992.574c.711.11.985.985.465 1.504l-2.87 2.816.683 3.965c.11.711-.656 1.258-1.285.93L12 17.281l-3.582 1.887c-.629.328-1.395-.219-1.285-.93l.683-3.964-2.87-2.817c-.52-.52-.247-1.394.464-1.504l4.02-.574 1.777-3.637Z" opacity=".9"></path>
+</svg> -->
