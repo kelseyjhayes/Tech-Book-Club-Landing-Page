@@ -407,6 +407,7 @@ button[data-type='inverted']:focus {
 
 .trust-stars {
     display:flex;
+    gap:var(--spacing-025);
   }
 
 /* Images */
@@ -725,7 +726,6 @@ button[data-type='inverted']:focus {
     display:grid;
     grid-template-columns: 1fr;
     gap:1.5rem;
-    max-width:21.25rem;
     margin-inline:auto;
   }
 
@@ -751,7 +751,6 @@ button[data-type='inverted']:focus {
     padding:var(--spacing-300);
     display:flex;
     flex-direction: column;
-    width:21.25rem;
   }
 
   .offer-card:nth-of-type(2) {
@@ -766,7 +765,7 @@ button[data-type='inverted']:focus {
     }
     .offer-card:nth-of-type(2) {
       transform:scaleY(1.1);
-      width:350px;
+      width:21.875rem;
     }
   }
   
@@ -808,4 +807,29 @@ button[data-type='inverted']:focus {
 
   .membership button {
     width:100%;
+  }
+
+  /* REVIEW */
+
+  .review .container {
+    display:flex;
+    flex-direction: column;
+    gap:var(--spacing-400);
+  }
+
+  @media screen and (min-width:90rem) {
+    .review .container {
+      justify-content:center;
+      text-align:center;
+    }
+  }
+
+  .review .trust-stars {
+    gap:var(--spacing-150);
+  }
+
+  @media screen and (min-width:90rem) {
+    .review .trust-stars {
+      margin-inline:auto;
+    }
   }
