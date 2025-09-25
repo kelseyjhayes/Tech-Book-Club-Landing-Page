@@ -86,6 +86,9 @@ If you want more help with writing markdown, we'd recommend checking out [The Ma
 ### Continued development
 
 I really want to continue improving on my knowledge of pseudoelements, and how to position them precisely.
+
+extending the line the whole way across in the tablet view of the footer (can't do as a bottom border because it extends past the container). Would need to do it as a second footer only for that screen size which seems silly. 
+ 
 ### Useful resources
 
 - [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
