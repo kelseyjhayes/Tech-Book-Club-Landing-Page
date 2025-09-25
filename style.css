@@ -588,7 +588,28 @@ button[data-type='inverted']:focus {
   background-size:cover;
   background-repeat:no-repeat;
   transform:scale(0.92);
-  
+}
+
+.not-average .right-column {
+  position:relative;
+}
+
+@media screen and (min-width:48rem) {
+  .not-average .right-column::after {
+    content:url(./starter-code/assets/images/logos-tech.svg);
+    position:absolute;
+    width:120px;
+    aspect-ratio:1;
+    bottom:var(--spacing-600);
+    right:var(--spacing-600);
+  }
+}
+
+@media screen and (min-width:90rem) {
+  .not-average .right-column::after {
+    bottom:2rem;
+    left:-5rem;
+  }
 }
 
 /* JOURNEY */
