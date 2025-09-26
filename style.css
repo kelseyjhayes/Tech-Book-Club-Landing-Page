@@ -584,16 +584,21 @@ button[data-type='inverted']:focus {
 }
 
 .not-average h2 span::before {
-  content:"";
-  background-image:url(./starter-code/assets/images/pattern-circle.png);
-  position:absolute;
-  top:-0.5rem;
-  left:-0.9rem;
-  width:110%;
-  height:110%;
-  background-size:cover;
-  background-repeat:no-repeat;
-  transform:scale(0.92);
+    content:url(./starter-code/assets/images/pattern-circle.png);
+    position:absolute;
+    top:-0.9rem;
+    left:-1.8rem;
+    transform:scale(0.7);
+    z-index:1;
+}
+
+
+@media screen and (min-width:48rem) {
+  .not-average h2 span::before {
+    left:-0.5rem;
+    top:0;
+    transform:scale(1);
+  }
 }
 
 .not-average .right-column {
@@ -693,16 +698,12 @@ button[data-type='inverted']:focus {
     .journey ol li::before {
       top:-3.5rem;
     }
+
     .journey li:not(:last-of-type)::after {
-      content:'';
-      background-image:url(./starter-code/assets/images/pattern-arrow.svg);
-      display:block;
+      content:url(./starter-code/assets/images/pattern-arrow.svg);
       position:absolute;
-      background-repeat:no-repeat;
-      width:76.74px;
-      height:20.51px;
-      top:-50px;
-      right:-20px;
+      top:-3.5rem;
+      right:-1.25rem;
     }
   }
 
@@ -875,6 +876,7 @@ button[data-type='inverted']:focus {
   .primary-footer .trust-container {
     padding-block-end:4rem;
     margin-inline:auto;
+    text-align:left;
   }
 
   .copyright-social-container {
