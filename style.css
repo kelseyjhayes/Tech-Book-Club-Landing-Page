@@ -870,6 +870,8 @@ button[data-type='inverted']:focus {
 
   .primary-footer h2 {
     margin-block-end:2.5rem;
+    max-width:19ch;
+    margin-inline:auto;
   }
 
   .primary-footer button {
