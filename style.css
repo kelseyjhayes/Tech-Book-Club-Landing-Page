@@ -840,7 +840,8 @@ button[data-type='inverted']:focus {
     }
 
     .review blockquote {
-    max-width: 45ch;
+      max-width: 45ch;
+      margin-inline:auto;
   }
   }
 
